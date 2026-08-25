@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f1ca2c34-66ad-4b9b-80d4-f54ad5e895dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FuncionarioDaQuestao4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FuncionarioDaQuestao4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/questao6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questao6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
     "Application.questao3.executor": "Run",
     "Application.questao4.executor": "Run",
     "Application.questao5.executor": "Run",
+    "Application.questao6.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -76,14 +77,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.questao5">
-    <configuration name="questao1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questao1" />
-      <module name="lista1-orientacao-a-objetos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.questao6">
     <configuration name="questao2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questao2" />
       <module name="lista1-orientacao-a-objetos" />
@@ -112,13 +106,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="questao6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questao6" />
+      <module name="lista1-orientacao-a-objetos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.questao6" />
         <item itemvalue="Application.questao5" />
         <item itemvalue="Application.questao4" />
         <item itemvalue="Application.questao3" />
         <item itemvalue="Application.questao2" />
-        <item itemvalue="Application.questao1" />
       </list>
     </recent_temporary>
   </component>
