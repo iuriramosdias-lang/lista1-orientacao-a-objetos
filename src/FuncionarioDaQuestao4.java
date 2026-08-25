@@ -1,9 +1,9 @@
 import java.util.UUID;
 
 public class FuncionarioDaQuestao4 {
-    UUID idDoFuncionario;
-    String nomeDoFuncionario;
-    double salarioDoFuncionario;
+    private UUID idDoFuncionario;
+    private String nomeDoFuncionario;
+    private double salarioDoFuncionario;
 
     public UUID getIdDoFuncionario() {
         return idDoFuncionario;
