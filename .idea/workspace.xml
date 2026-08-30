@@ -49,12 +49,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.questao1.executor": "Run",
+    "Application.questao10.executor": "Run",
     "Application.questao2.executor": "Run",
     "Application.questao3.executor": "Run",
     "Application.questao4.executor": "Run",
     "Application.questao5.executor": "Run",
     "Application.questao6.executor": "Run",
     "Application.questao7.executor": "Run",
+    "Application.questao8.executor": "Run",
+    "Application.questao9.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -74,26 +77,13 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.tools",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.questao7">
-    <configuration name="questao3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questao3" />
-      <module name="lista1-orientacao-a-objetos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="questao4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questao4" />
-      <module name="lista1-orientacao-a-objetos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="questao5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questao5" />
+  <component name="RunManager" selected="Application.questao10">
+    <configuration name="questao10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questao10" />
       <module name="lista1-orientacao-a-objetos" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,13 +103,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="questao8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questao8" />
+      <module name="lista1-orientacao-a-objetos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="questao9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questao9" />
+      <module name="lista1-orientacao-a-objetos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.questao10" />
+        <item itemvalue="Application.questao9" />
+        <item itemvalue="Application.questao8" />
         <item itemvalue="Application.questao7" />
         <item itemvalue="Application.questao6" />
-        <item itemvalue="Application.questao5" />
-        <item itemvalue="Application.questao4" />
-        <item itemvalue="Application.questao3" />
       </list>
     </recent_temporary>
   </component>
