@@ -114,37 +114,37 @@
       <recent name="C:\Users\IURI_\lista1-orientacao-a-objetos\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.questao10">
-    <configuration name="questao10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex10.questao10" />
+  <component name="RunManager" selected="Application.Questao10">
+    <configuration name="Questao10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex10.Questao10" />
       <module name="lista1-orientacao-a-objetos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="questao6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex06.questao6" />
+    <configuration name="Questao6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex06.Questao6" />
       <module name="lista1-orientacao-a-objetos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="questao7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex07.questao7" />
+    <configuration name="Questao7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex07.Questao7" />
       <module name="lista1-orientacao-a-objetos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="questao8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex08.questao8" />
+    <configuration name="Questao8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex08.Questao8" />
       <module name="lista1-orientacao-a-objetos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="questao9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex09.questao9" />
+    <configuration name="Questao9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex09.Questao9" />
       <module name="lista1-orientacao-a-objetos" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.questao10" />
-        <item itemvalue="Application.questao9" />
-        <item itemvalue="Application.questao8" />
-        <item itemvalue="Application.questao7" />
-        <item itemvalue="Application.questao6" />
+        <item itemvalue="Application.Questao10" />
+        <item itemvalue="Application.Questao9" />
+        <item itemvalue="Application.Questao8" />
+        <item itemvalue="Application.Questao7" />
+        <item itemvalue="Application.Questao6" />
       </list>
     </recent_temporary>
   </component>

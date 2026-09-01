@@ -2,7 +2,7 @@ package ex04;
 
 import java.util.Scanner;
 
-public class questao4 {
+public class Questao4 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         IO.println("Digite o nome do seu funcionario");

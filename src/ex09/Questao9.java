@@ -2,7 +2,7 @@ package ex09;
 
 import java.util.Scanner;
 
-public class questao9 {
+public class Questao9 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         IO.println("Digite o nome da pessoa");
