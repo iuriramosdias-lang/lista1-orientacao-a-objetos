@@ -11,9 +11,9 @@ public class Questao10 {
         String armazenamentoDoCelular = sc.nextLine();
         IO.println("Digite o modelo do celular");
         String modeloDoCelular = sc.nextLine();
-        CelularDaQuestao10 celular1 = new CelularDaQuestao10(marcaDoCelular, modeloDoCelular, armazenamentoDoCelular);
-        CelularDaQuestao10 celular2 = new CelularDaQuestao10(marcaDoCelular, modeloDoCelular);
-        CelularDaQuestao10 celular3 = new CelularDaQuestao10(marcaDoCelular);
+        Celular celular1 = new Celular(marcaDoCelular, modeloDoCelular, armazenamentoDoCelular);
+        Celular celular2 = new Celular(marcaDoCelular, modeloDoCelular);
+        Celular celular3 = new Celular(marcaDoCelular);
         IO.println(celular1.exibirDados());
         IO.println(celular2.exibirDados());
         IO.println(celular3.exibirDados());

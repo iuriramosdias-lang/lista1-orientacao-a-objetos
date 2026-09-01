@@ -10,7 +10,7 @@ public class Questao8 {
         IO.println("Digite o preco do produto");
         double precoDoProduto = sc.nextDouble();
         sc.nextLine();
-        LivroDaQuestao8 produto = new LivroDaQuestao8(nomeDoProduto, precoDoProduto);
+        Livro produto = new Livro(nomeDoProduto, precoDoProduto);
         IO.println("Digite o nome do autor deste livro");
         String nomeDoAutor = sc.nextLine();
         produto.setNomeDoAutor(nomeDoAutor);

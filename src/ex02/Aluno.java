@@ -3,7 +3,7 @@ package ex02;
 import java.util.Scanner;
 import java.util.UUID;
 
-public class AlunoDaQuestao2 {
+public class Aluno {
     private UUID id;
     private String nomeDoAluno;
     private int idadeDoAluno;
@@ -11,7 +11,7 @@ public class AlunoDaQuestao2 {
 
     Scanner sc = new Scanner(System.in);
 
-    public AlunoDaQuestao2(){
+    public Aluno(){
         this.cursoDoAluno = this.cursoDoAluno;
         this.id = UUID.randomUUID();
         this.nomeDoAluno = this.nomeDoAluno;
@@ -19,13 +19,13 @@ public class AlunoDaQuestao2 {
 
     }
 
-    public AlunoDaQuestao2(String nomeDoAluno){
+    public Aluno(String nomeDoAluno){
         this.nomeDoAluno = nomeDoAluno;
         this.idadeDoAluno = this.idadeDoAluno;
         this.cursoDoAluno = this.cursoDoAluno;
         this.id = UUID.randomUUID();
     }
-    public AlunoDaQuestao2(String nomeDoAluno, int idadeDoAluno, String cursoDoAluno){
+    public Aluno(String nomeDoAluno, int idadeDoAluno, String cursoDoAluno){
         this.nomeDoAluno = nomeDoAluno;
         this.idadeDoAluno = idadeDoAluno;
         this.cursoDoAluno = cursoDoAluno;

@@ -1,7 +1,7 @@
 package ex06;
 
-public class FuncionarioDaQuestao6 extends PessoaDaQuestao6 {
-    public FuncionarioDaQuestao6(String nome, int idade){
+public class Funcionario extends Pessoa {
+    public Funcionario(String nome, int idade){
         super(nome, idade);
     }
     private double salarioDoFuncionario;

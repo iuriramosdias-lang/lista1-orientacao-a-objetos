@@ -9,8 +9,8 @@ public class Questao7 {
         String marca = sc.nextLine();
         IO.println("Digite um modelo ");
         String modelo = sc.nextLine();
-        CarroDaQuestao7 carro = new CarroDaQuestao7(marca, modelo);
-        MotoDaQuestao7 moto = new MotoDaQuestao7(marca, modelo);
+        Carro carro = new Carro(marca, modelo);
+        Moto moto = new Moto(marca, modelo);
         IO.println("Digite a quantidade de portas do carro");
         int quantidadeDePortas = sc.nextInt();
         sc.nextLine();

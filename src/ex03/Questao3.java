@@ -7,7 +7,7 @@ public class Questao3 {
         Scanner sc = new Scanner(System.in);
         IO.println("Digite o nome do titular da conta");
         String nomeDoTitular = sc.nextLine();
-        ContaBancariaDaQuestao3 conta = new ContaBancariaDaQuestao3(nomeDoTitular);
+        ContaBancaria conta = new ContaBancaria(nomeDoTitular);
         IO.println("Digite o valor que deseja depositar");
         double deposito = sc.nextDouble();
         sc.nextLine();

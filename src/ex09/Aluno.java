@@ -1,7 +1,7 @@
 package ex09;
 
-public class AlunoDaQuestao9 extends PessoaDaQuestao9 {
-    public AlunoDaQuestao9(String nome, int idade){
+public class Aluno extends Pessoa {
+    public Aluno(String nome, int idade){
         super(nome, idade);
     }
     private int matriculaDoAluno;

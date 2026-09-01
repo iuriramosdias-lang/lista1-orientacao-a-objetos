@@ -10,7 +10,7 @@ public class Questao6 {
         IO.println("Digite a idade da pessoa");
         int idadeDaPessoa = sc.nextInt();
         sc.nextLine();
-        FuncionarioDaQuestao6 pessoa = new FuncionarioDaQuestao6(nomeDaPessoa, idadeDaPessoa);
+        Funcionario pessoa = new Funcionario(nomeDaPessoa, idadeDaPessoa);
         IO.println("Digite o salario desse funcionario");
         double salario = sc.nextDouble();
         pessoa.setSalarioDoFuncionario(salario);

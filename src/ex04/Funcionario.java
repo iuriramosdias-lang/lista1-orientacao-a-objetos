@@ -2,7 +2,7 @@ package ex04;
 
 import java.util.UUID;
 
-public class FuncionarioDaQuestao4 {
+public class Funcionario {
     private UUID idDoFuncionario;
     private String nomeDoFuncionario;
     private double salarioDoFuncionario;
@@ -31,7 +31,7 @@ public class FuncionarioDaQuestao4 {
         this.salarioDoFuncionario = salarioDoFuncionario;
     }
 
-    public FuncionarioDaQuestao4(String nomeDoFuncionario){
+    public Funcionario(String nomeDoFuncionario){
         this.nomeDoFuncionario = nomeDoFuncionario;
         this.idDoFuncionario = UUID.randomUUID();
     }

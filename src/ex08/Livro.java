@@ -1,7 +1,7 @@
 package ex08;
 
-public class LivroDaQuestao8 extends ProdutoDaQuestao8 {
-    public LivroDaQuestao8(String nomeDoProduto, double precoDoProduto){
+public class Livro extends Produto {
+    public Livro(String nomeDoProduto, double precoDoProduto){
         super(nomeDoProduto, precoDoProduto);
     }
     private String nomeDoAutor;

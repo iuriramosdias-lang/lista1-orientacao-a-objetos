@@ -1,10 +1,10 @@
 package ex03;
 
-public class ContaBancariaDaQuestao3 {
+public class ContaBancaria {
     private String nomeDoTitular;
     private double saldoDaConta;
 
-    public ContaBancariaDaQuestao3(String nome){
+    public ContaBancaria(String nome){
         this.nomeDoTitular = nome;
         this.saldoDaConta = 0;
     }

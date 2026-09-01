@@ -1,7 +1,7 @@
 package ex07;
 
-public class CarroDaQuestao7 extends VeiculoDaQuestao7 {
-    public CarroDaQuestao7(String marca, String modelo){
+public class Carro extends Veiculo {
+    public Carro(String marca, String modelo){
         super(marca, modelo);
     }
     private int quantidadeDePortas;

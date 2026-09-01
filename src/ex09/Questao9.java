@@ -20,10 +20,10 @@ public class Questao9 {
         sc.nextLine();
         IO.println("Digite o curso do aluno");
         String cursoDoAluno = sc.nextLine();
-        ProfessorDaQuestao9 professor = new ProfessorDaQuestao9(nomeDaPessoa, idadeDaPessoa);
+        Professor professor = new Professor(nomeDaPessoa, idadeDaPessoa);
         professor.setDisciplinaDoProfessor(disciplinaDoProfessor);
         professor.setSalarioDoProfessor(salarioDoProfessor);
-        AlunoDaQuestao9 aluno = new AlunoDaQuestao9(nomeDaPessoa, idadeDaPessoa);
+        Aluno aluno = new Aluno(nomeDaPessoa, idadeDaPessoa);
         aluno.setCursoDoAluno(cursoDoAluno);
         aluno.setMatriculaDoAluno(matriculaDoAluno);
         IO.println(professor);

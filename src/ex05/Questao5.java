@@ -11,7 +11,7 @@ public class Questao5 {
         IO.println("Digite o segundo numero inteiro para somar");
         int segundoNumeroInteiro = sc.nextInt();
         sc.nextLine();
-        CalculadoraDaQuestao5 somaDeDoisInteiros = new CalculadoraDaQuestao5(primeiroNumeroInteiro, segundoNumeroInteiro);
+        Calculadora somaDeDoisInteiros = new Calculadora(primeiroNumeroInteiro, segundoNumeroInteiro);
         somaDeDoisInteiros.somaDeDoisInteiros();
         IO.println("Digite o primeiro numero double que deseja somar");
         double primeiroNumeroDouble = sc.nextDouble();
@@ -19,7 +19,7 @@ public class Questao5 {
         IO.println("Digite o segundo numero double para somar");
         double segundoNumeroDouble = sc.nextDouble();
         sc.nextLine();
-        CalculadoraDaQuestao5 somaDeDoisDoubles = new CalculadoraDaQuestao5(primeiroNumeroDouble, segundoNumeroDouble);
+        Calculadora somaDeDoisDoubles = new Calculadora(primeiroNumeroDouble, segundoNumeroDouble);
         somaDeDoisDoubles.somaDeDoisDoubles();
         IO.println("Digite o primeiro numero inteiro que deseja somar");
         int primeiroDe3NumeroInteiro = sc.nextInt();
@@ -30,7 +30,7 @@ public class Questao5 {
         IO.println("Digite o terceiro numero inteiro que deseja somar");
         int terceirode3NumeroInteiro = sc.nextInt();
         sc.nextLine();
-        CalculadoraDaQuestao5 somaDeTresInteiros= new CalculadoraDaQuestao5(primeiroDe3NumeroInteiro, segundode3NumeroInteiro, terceirode3NumeroInteiro);
+        Calculadora somaDeTresInteiros= new Calculadora(primeiroDe3NumeroInteiro, segundode3NumeroInteiro, terceirode3NumeroInteiro);
         somaDeTresInteiros.somaDeTresInteiros();
         sc.close();
     }

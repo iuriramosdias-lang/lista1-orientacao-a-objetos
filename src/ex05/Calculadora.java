@@ -1,22 +1,22 @@
 package ex05;
 
-public class CalculadoraDaQuestao5 {
+public class Calculadora {
     double primeiroNumero;
     double segundoNumero;
     double terceiroNumero;
 
 
-    public CalculadoraDaQuestao5(double primeiroNumero, double segundoNumero) {
+    public Calculadora(double primeiroNumero, double segundoNumero) {
         this.primeiroNumero = primeiroNumero;
         this.segundoNumero = segundoNumero;
     }
 
-    public CalculadoraDaQuestao5(int primeiroNumero, int segundoNumero) {
+    public Calculadora(int primeiroNumero, int segundoNumero) {
         this.primeiroNumero = (double) primeiroNumero;
         this.segundoNumero = (double) segundoNumero;
     }
 
-    public CalculadoraDaQuestao5(int primeiroNumero, int segundoNumero, int terceiroNumero) {
+    public Calculadora(int primeiroNumero, int segundoNumero, int terceiroNumero) {
         this.primeiroNumero = (double) primeiroNumero;
         this.segundoNumero = (double) segundoNumero;
         this.terceiroNumero = (double) terceiroNumero;

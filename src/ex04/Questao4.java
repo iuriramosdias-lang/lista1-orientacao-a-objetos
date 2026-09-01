@@ -7,7 +7,7 @@ public class Questao4 {
         Scanner sc = new Scanner(System.in);
         IO.println("Digite o nome do seu funcionario");
         String nomeDoFuncionario = sc.nextLine();
-        FuncionarioDaQuestao4 funcionario = new FuncionarioDaQuestao4(nomeDoFuncionario);
+        Funcionario funcionario = new Funcionario(nomeDoFuncionario);
         IO.println("Digite o salario");
         double salarioDoFuncionario = sc.nextDouble();
         sc.nextLine();

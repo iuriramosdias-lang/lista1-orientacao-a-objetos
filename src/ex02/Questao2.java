@@ -12,7 +12,7 @@ public class Questao2 {
         int numeroDeAlunos = sc.nextInt();
         sc.nextLine();
 
-        AlunoDaQuestao2[] alunos = new AlunoDaQuestao2[numeroDeAlunos];
+        Aluno[] alunos = new Aluno[numeroDeAlunos];
 
         for (int i = 0; i < alunos.length; i++) {
 
@@ -27,7 +27,7 @@ public class Questao2 {
                 System.out.printf("Digite o curso do aluno %d%n", i + 1);
                 String cursoDoAluno = sc.nextLine();
 
-                alunos[i] = new AlunoDaQuestao2(
+                alunos[i] = new Aluno(
                         nomeDoAluno,
                         idadeDoAluno,
                         cursoDoAluno
@@ -38,11 +38,11 @@ public class Questao2 {
                 System.out.printf("Digite o nome do aluno %d%n", i + 1);
                 String nomeDoAluno = sc.nextLine();
 
-                alunos[i] = new AlunoDaQuestao2(nomeDoAluno);
+                alunos[i] = new Aluno(nomeDoAluno);
 
             } else {
 
-                alunos[i] = new AlunoDaQuestao2();
+                alunos[i] = new Aluno();
             }
         }
 

@@ -1,21 +1,21 @@
 package ex10;
 
-public class CelularDaQuestao10 {
+public class Celular {
     private String marcaDoCelular;
     private String modeloDoCelular;
     private String armazenamentoDoCelular;
 
-    public CelularDaQuestao10(String marcaDoCelular, String modeloDoCelular, String armazenamentoDoCelular) {
+    public Celular(String marcaDoCelular, String modeloDoCelular, String armazenamentoDoCelular) {
         this.marcaDoCelular = marcaDoCelular;
         this.modeloDoCelular = modeloDoCelular;
         this.armazenamentoDoCelular = armazenamentoDoCelular;
     }
 
-    public CelularDaQuestao10(String marcaDoCelular, String modeloDoCelular) {
+    public Celular(String marcaDoCelular, String modeloDoCelular) {
         this.marcaDoCelular = marcaDoCelular;
         this.modeloDoCelular = modeloDoCelular;
     }
-    public CelularDaQuestao10(String marcaDoCelular) {
+    public Celular(String marcaDoCelular) {
         this.marcaDoCelular = marcaDoCelular;
     }
 

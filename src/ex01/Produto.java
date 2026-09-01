@@ -2,13 +2,13 @@ package ex01;
 
 import java.util.UUID;
 
-public class ProdutoDaQuestao1{
+public class Produto {
     private UUID id;
     private String nomeDoProduto;
     private int quantidadeDoProduto;
     private double precoDoProduto;
 
-    public ProdutoDaQuestao1(String nomeDoProduto, int quantidadeDoProduto, double precoDoProduto){
+    public Produto(String nomeDoProduto, int quantidadeDoProduto, double precoDoProduto){
         this.id = UUID.randomUUID();
         this.quantidadeDoProduto = quantidadeDoProduto;
         this.nomeDoProduto = nomeDoProduto;
