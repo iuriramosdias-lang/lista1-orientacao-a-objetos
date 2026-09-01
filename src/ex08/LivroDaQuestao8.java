@@ -1,4 +1,6 @@
-public class LivroDaQuestao8 extends ProdutoDaQuestao8{
+package ex08;
+
+public class LivroDaQuestao8 extends ProdutoDaQuestao8 {
     public LivroDaQuestao8(String nomeDoProduto, double precoDoProduto){
         super(nomeDoProduto, precoDoProduto);
     }
@@ -14,7 +16,7 @@ public class LivroDaQuestao8 extends ProdutoDaQuestao8{
 
     @Override
     public String toString() {
-        return "LivroDaQuestao8{" +
+        return "ex08.LivroDaQuestao8{" +
                 "nomeDoProduto='" + nomeDoProduto + '\'' +
                 ", precoDoProduto=" + precoDoProduto +
                 ", nomeDoAutor='" + nomeDoAutor + '\'' +

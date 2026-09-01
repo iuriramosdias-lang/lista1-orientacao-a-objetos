@@ -1,4 +1,6 @@
-public class CarroDaQuestao7 extends VeiculoDaQuestao7{
+package ex07;
+
+public class CarroDaQuestao7 extends VeiculoDaQuestao7 {
     public CarroDaQuestao7(String marca, String modelo){
         super(marca, modelo);
     }
@@ -10,7 +12,7 @@ public class CarroDaQuestao7 extends VeiculoDaQuestao7{
 
     @Override
     public String toString() {
-        return "CarroDaQuestao7{" +
+        return "ex07.CarroDaQuestao7{" +
                 "marca='" + marca + '\'' +
                 ", modelo='" + modelo + '\'' +
                 ", quantidadeDePortas=" + quantidadeDePortas +

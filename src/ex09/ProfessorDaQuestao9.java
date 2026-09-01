@@ -1,4 +1,6 @@
-public class ProfessorDaQuestao9 extends PessoaDaQuestao9{
+package ex09;
+
+public class ProfessorDaQuestao9 extends PessoaDaQuestao9 {
     public ProfessorDaQuestao9(String nome, int idade){
         super(nome, idade);
     }
@@ -28,7 +30,7 @@ public class ProfessorDaQuestao9 extends PessoaDaQuestao9{
 
     @Override
     public String toString() {
-        return "ProfessorDaQuestao9{" +
+        return "ex09.ProfessorDaQuestao9{" +
                 "nomeDaPessoa='" + nomeDaPessoa + '\'' +
                 ", idade=" + idade +
                 ", disciplinaDoProfessor='" + disciplinaDoProfessor + '\'' +

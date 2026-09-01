@@ -1,3 +1,5 @@
+package ex10;
+
 public class CelularDaQuestao10 {
     private String marcaDoCelular;
     private String modeloDoCelular;

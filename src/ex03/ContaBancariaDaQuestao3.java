@@ -1,3 +1,5 @@
+package ex03;
+
 public class ContaBancariaDaQuestao3 {
     private String nomeDoTitular;
     private double saldoDaConta;
@@ -45,7 +47,7 @@ public class ContaBancariaDaQuestao3 {
 
     @Override
     public String toString() {
-        return "ContaBancariaDaQuestao3{" +
+        return "ex03.ContaBancariaDaQuestao3{" +
                 "nomeDoTitular='" + nomeDoTitular + '\'' +
                 ", saldoDaConta=" + saldoDaConta +
                 '}';

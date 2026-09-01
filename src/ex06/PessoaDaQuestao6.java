@@ -1,3 +1,5 @@
+package ex06;
+
 public class PessoaDaQuestao6 {
     String nomeDaPessoa;
     int idadeDaPessoa;

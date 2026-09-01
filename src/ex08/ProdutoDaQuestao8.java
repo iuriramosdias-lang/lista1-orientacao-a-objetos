@@ -1,3 +1,5 @@
+package ex08;
+
 public class ProdutoDaQuestao8 {
     String nomeDoProduto;
     double precoDoProduto;

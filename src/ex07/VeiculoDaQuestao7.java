@@ -1,3 +1,5 @@
+package ex07;
+
 public class VeiculoDaQuestao7 {
     String marca;
     String modelo;

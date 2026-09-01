@@ -1,3 +1,4 @@
+package ex05;
 
 public class CalculadoraDaQuestao5 {
     double primeiroNumero;

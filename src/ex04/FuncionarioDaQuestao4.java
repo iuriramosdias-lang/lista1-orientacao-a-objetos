@@ -1,3 +1,5 @@
+package ex04;
+
 import java.util.UUID;
 
 public class FuncionarioDaQuestao4 {
@@ -36,7 +38,7 @@ public class FuncionarioDaQuestao4 {
 
     @Override
     public String toString() {
-        return "FuncionarioDaQuestao4{" +
+        return "ex04.FuncionarioDaQuestao4{" +
                 "idDoFuncionario=" + idDoFuncionario +
                 ", nomeDoFuncionario='" + nomeDoFuncionario + '\'' +
                 ", salarioDoFuncionario=" + salarioDoFuncionario +

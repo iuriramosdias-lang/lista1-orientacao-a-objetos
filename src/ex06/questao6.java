@@ -1,3 +1,5 @@
+package ex06;
+
 import java.util.Scanner;
 
 public class questao6 {

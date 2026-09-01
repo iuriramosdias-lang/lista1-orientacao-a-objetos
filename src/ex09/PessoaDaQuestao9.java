@@ -1,3 +1,5 @@
+package ex09;
+
 public class PessoaDaQuestao9 {
     String nomeDaPessoa;
     int idade;

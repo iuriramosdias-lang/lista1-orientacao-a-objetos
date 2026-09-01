@@ -1,3 +1,5 @@
+package ex02;
+
 import java.util.Scanner;
 import java.util.UUID;
 
@@ -64,7 +66,7 @@ public class AlunoDaQuestao2 {
 
     @Override
     public String toString() {
-        return "AlunoDaQuestao2{" +
+        return "ex02.AlunoDaQuestao2{" +
                 "Id=" + id +
                 ", Nome:'" + nomeDoAluno+
                 ", Idade: " + idadeDoAluno +
